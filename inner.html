@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>Animation</title>
+    <style>
+        body{
+        
+        background-repeat:no-repeat;
+        background-size:100% 100%;
+        background-attachment:fixed;
+        }
+            .a10{
+                margin-top: 80px;
+            }        
+            .a5{
+                margin-top: 0px;
+            }
+        </style>
+        
+</head>
+<body  background ="img/a5.jpg">
+
+       <marquee class="a5" behavior="" direction="" scrollamount="25">
+        <img src="img/a12.gif" width="20%" alt="">
+    </marquee>
+    
+    <marquee class="a10" direction = "right" scrollamount="20"  onmouseover="this.stop()" onmouseout="this.start()"> 
+        <!-- <img  class="a9" src="img/a2.gif"  width="25%"  />&emsp;&emsp;&emsp;&emsp;&emsp;  -->
+        <img class="a8" src="img/a3.gif" width="15%" />&emsp;&emsp;&emsp;
+        <img class="a7" src="img/a4.gif" width="15%" />&nbsp;
+    </marquee>
+    
+</body>
+</html>
